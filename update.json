@@ -1,14 +1,12 @@
 {
-  "sha256": "be6690100bcc28ba706062d11597582ab5451dda4c5ee9eaa3c910f68faa2903",
-  "version": "2.0.6",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.7/NyaaDebrid-Windows-x64.zip",
+  "sha256": "d8cfba3c5d30852155c697a4a7cb1f9c219db3fa4654210faba06fb0ddc1c47f",
+  "version": "2.0.7",
   "notes": [
-    "Performed a full UI consistency pass across Settings and secondary dialogs.",
-    "Standardized text fields, combo boxes, spin boxes, time fields, buttons, lists, tables and checkboxes to the same rounded control language and sizing.",
-    "Removed the inconsistent full-width checkbox strips and aligned form spacing and label positioning.",
-    "Polished Health Check cards so labels no longer inherit card borders and storage rows line up cleanly.",
-    "Polished Notification Center cards and added consistent action icons.",
-    "Polished About, Saved Searches, Release Comparison, Rename and Download Review dialogs to match the main app.",
-    "Added meaningful icons to maintenance, Plex-path and dialog actions where they improve scanning."
-  ],
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.6/NyaaDebrid-Windows-x64.zip"
+    "Rebuilt the form-control styling so text fields, combo boxes, numeric fields and time fields use the exact same height, width behavior and 12 px corner radius.",
+    "Removed the separate square-looking spin/drop-down button backgrounds; arrows now sit inside the same rounded control instead of looking like an attached box.",
+    "Forced Settings form fields to expand to the same column width, eliminating random short and long controls.",
+    "Normalized button, list and table control radii across the secondary dialogs to the same UI language.",
+    "Added geometry tests that fail the build if the main Settings controls no longer share the same height and width."
+  ]
 }
