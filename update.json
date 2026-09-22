@@ -1,5 +1,9 @@
 {
   "notes": [
+    "Redesigned the Review episodes dialog so the naming and destination controls are compact instead of oversized.",
+    "Moved Destination folder and existing-file handling onto the same compact row to free much more vertical space for the episode table.",
+    "Reduced episode editor and table row heights so more episodes are visible at once.",
+    "Combined disk-space and plan-status text into one compact status row.",
     "Fixed the real cause of the Season selector clipping: local right padding was stacking with the combo-box drop-down width and hiding the second digit.",
     "Removed the conflicting per-field padding and widened both Season selectors so values such as 02, 12 and 99 remain fully visible.",
     "Made every Compare releases column sortable by clicking its header, with ascending/descending toggling.",
@@ -17,7 +21,7 @@
     "Normalized button, list and table control radii across the secondary dialogs to the same UI language.",
     "Added geometry tests that fail the build if the main Settings controls no longer share the same height and width."
   ],
-  "sha256": "c82d00936b020a2566af41995ecfcb3c9d3c153dee1840bf7f8c5b972ff0dbd4",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.11/NyaaDebrid-Windows-x64.zip",
-  "version": "2.0.11"
+  "sha256": "4fdbce96b7c5afe75545d228ec06fda838bdaf28eb4e3b3d76b15cd695ad63dd",
+  "version": "2.0.12",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.12/NyaaDebrid-Windows-x64.zip"
 }
