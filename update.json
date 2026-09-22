@@ -1,5 +1,4 @@
 {
-  "version": "2.0.0",
   "notes": [
     "Introduced one global download queue across every search, so new searches never replace or bypass existing downloads.",
     "Added multi-season searching plus an All available seasons mode that stops intelligently after empty seasons.",
@@ -13,6 +12,7 @@
     "Added update rollback, Stable/Beta update channels, and richer changelog history.",
     "Expanded naming transparency to show whether a clean title came from Groq, an alias, cache, local fallback, or a manual override."
   ],
-  "sha256": "711e73cbc97ac82c11316caf1de853a5c5d267e454bd85bf1fc894d586e54930",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.0/NyaaDebrid-Windows-x64.zip"
+  "sha256": "88f149234f353e73bdd66720cfab1484bbef94629e96fd952f26f4ea05023d89",
+  "version": "2.0.1",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.1/NyaaDebrid-Windows-x64.zip"
 }
