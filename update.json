@@ -1,10 +1,10 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v1.8.1/NyaaDebrid-Windows-x64.zip",
-  "version": "1.8.1",
-  "sha256": "e0f629b8a5c503dcde09f5f8020f7a32da7fa614872d073c0e48c7b47b533604",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v1.8.2/NyaaDebrid-Windows-x64.zip",
+  "sha256": "27c927ec4adb727b0fa8862cbfa02ee8f4794c571451b8c3b09200fb40c42924",
   "notes": [
-    "Polished the update experience introduced in 1.8.0.",
-    "Kept release notes backward compatible while preserving the new changelog UI.",
-    "Maintenance release used to validate the new notification-driven update flow."
-  ]
+    "Update notifications now use a direct Update button instead of a generic Open action.",
+    "Redesigned the Maintenance section in Settings into clean Updates, Diagnostics, and Settings backup groups.",
+    "Simplified update and maintenance wording for a cleaner, more focused Settings experience."
+  ],
+  "version": "1.8.2"
 }
