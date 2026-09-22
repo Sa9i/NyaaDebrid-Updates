@@ -1,12 +1,15 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.7/NyaaDebrid-Windows-x64.zip",
-  "sha256": "d8cfba3c5d30852155c697a4a7cb1f9c219db3fa4654210faba06fb0ddc1c47f",
-  "version": "2.0.7",
+  "version": "2.0.8",
+  "sha256": "da0a4d3bb8b1ec5f84eac6a52a8fd6381779470de76447b0f256505735fbd823",
   "notes": [
+    "Removed the unnecessary vertical scrollbar from the empty Results state; scrolling now appears only when real result cards require it.",
+    "Rebuilt the Downloads action toolbar into two balanced rows so button labels and icons no longer crowd or clip each other.",
+    "Standardized Downloads toolbar icon sizing and minimum button widths for cleaner alignment.",
     "Rebuilt the form-control styling so text fields, combo boxes, numeric fields and time fields use the exact same height, width behavior and 12 px corner radius.",
     "Removed the separate square-looking spin/drop-down button backgrounds; arrows now sit inside the same rounded control instead of looking like an attached box.",
     "Forced Settings form fields to expand to the same column width, eliminating random short and long controls.",
     "Normalized button, list and table control radii across the secondary dialogs to the same UI language.",
     "Added geometry tests that fail the build if the main Settings controls no longer share the same height and width."
-  ]
+  ],
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.8/NyaaDebrid-Windows-x64.zip"
 }
