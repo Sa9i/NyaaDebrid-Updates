@@ -1,10 +1,16 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v1.8.2/NyaaDebrid-Windows-x64.zip",
-  "sha256": "27c927ec4adb727b0fa8862cbfa02ee8f4794c571451b8c3b09200fb40c42924",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.0/NyaaDebrid-Windows-x64.zip",
   "notes": [
-    "Update notifications now use a direct Update button instead of a generic Open action.",
-    "Redesigned the Maintenance section in Settings into clean Updates, Diagnostics, and Settings backup groups.",
-    "Simplified update and maintenance wording for a cleaner, more focused Settings experience."
+    "Introduced one global download queue across every search, so new searches never replace or bypass existing downloads.",
+    "Added multi-season searching, saved searches, smarter release rules, per-series preferences, and recommendation preselection.",
+    "Added size sanity checks, episode coverage warnings, duplicate detection, and local episode conflict checks before downloading.",
+    "Added system-tray support, optional Windows notifications, keyboard shortcuts, and release context menus.",
+    "Added bandwidth profiles and optional scheduled queue start times.",
+    "Expanded History with filters and storage statistics.",
+    "Added health checks, database backup/repair, and stale temp/log cleanup.",
+    "Added update rollback, Stable/Beta update channels, and richer changelog history.",
+    "Added manual naming overrides and clearer AI/alias naming transparency."
   ],
-  "version": "1.8.2"
+  "sha256": "aa53f3fdc7ee2a884fa25ad0d8d1ec19380345857f2ad8b9e9c188f9c39d70ef",
+  "version": "2.0.0"
 }
