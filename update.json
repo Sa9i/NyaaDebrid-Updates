@@ -1,6 +1,10 @@
 {
-  "version": "1.8.0",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v1.8.0/NyaaDebrid-Windows-x64.zip",
-  "notes": "Added a notification center with unread badge and lightweight in-app toasts.\nStartup update checks now appear as a notification instead of interrupting your workflow.\nRedesigned the update prompt with a cleaner changelog-focused layout.\nAdded smarter download recovery plus Pause all, Resume all and Retry failed controls.\nAdded release recommendation scoring with preferred and blocked release groups.\nAdded recent search history for one-click repeat searches.\nImproved the pre-download review with clearer disk and conflict information.\nAdded portable settings export/import without API keys.\nAdded an About & Updates view with version, update status and changelog.\nAdded previous-crash detection and diagnostics notification.",
-  "sha256": "d5ed438c09047a63bbddf8810fa96fed4f5c3acb7e712d769e8bad70ac6890d9"
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v1.8.1/NyaaDebrid-Windows-x64.zip",
+  "version": "1.8.1",
+  "sha256": "e0f629b8a5c503dcde09f5f8020f7a32da7fa614872d073c0e48c7b47b533604",
+  "notes": [
+    "Polished the update experience introduced in 1.8.0.",
+    "Kept release notes backward compatible while preserving the new changelog UI.",
+    "Maintenance release used to validate the new notification-driven update flow."
+  ]
 }
