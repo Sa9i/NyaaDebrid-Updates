@@ -1,5 +1,10 @@
 {
+  "version": "2.0.10",
   "notes": [
+    "Made every Compare releases column sortable by clicking its header, with ascending/descending toggling.",
+    "Episode sorting now treats season packs specially: packs sort before episodes ascending and after episodes descending.",
+    "Fixed the Score column so Recommended is fully readable instead of appearing as an ellipsis.",
+    "Numeric columns such as Score, Seeders, Resolution and Size now sort numerically rather than alphabetically.",
     "Fixed the Season range selectors so two-digit values such as 02 are fully visible instead of being clipped to a single digit.",
     "Widened and rebalanced both season selectors to match the new unified field styling.",
     "Removed the unnecessary vertical scrollbar from the empty Results state; scrolling now appears only when real result cards require it.",
@@ -11,7 +16,6 @@
     "Normalized button, list and table control radii across the secondary dialogs to the same UI language.",
     "Added geometry tests that fail the build if the main Settings controls no longer share the same height and width."
   ],
-  "sha256": "f384f1e4457fd944240437c33579c25eafa26dec1f8240433e06a6c8520a128c",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.9/NyaaDebrid-Windows-x64.zip",
-  "version": "2.0.9"
+  "sha256": "d3fbe14a6581135dd307d7f4c08918121be2144d13aa45038065b73bf390cfe9",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.10/NyaaDebrid-Windows-x64.zip"
 }
