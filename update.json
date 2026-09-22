@@ -1,6 +1,6 @@
 {
-  "version": "1.7.2",
-  "url": "",
-  "sha256": "",
-  "notes": "Public update channel initialized."
+  "version": "1.7.3",
+  "sha256": "802da5985561f6f8eecc1c92f8a13cbfc6bf905cae995ee835556fcfe6bcdde4",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v1.7.3/NyaaDebrid-Windows-x64.zip",
+  "notes": "NyaaDebrid 1.7.3 is ready to install."
 }
