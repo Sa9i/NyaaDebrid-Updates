@@ -1,6 +1,10 @@
 {
-  "version": "2.0.3",
+  "version": "2.0.4",
   "notes": [
+    "Standardized spin-box and time-field arrow controls so Settings no longer mixes different arrow sizes.",
+    "Replaced the ambiguous tray checkbox with an explicit close behavior selector: Exit NyaaDebrid or Keep running in system tray.",
+    "Closing the window now truly exits when tray mode is disabled instead of leaving the app alive in the tray.",
+    "Health Check now lists every configured Plex library path individually, including writability and free space.",
     "Update notifications are now transient: old version cards are removed after updating, and only the latest available update can appear.",
     "Clicking Update immediately removes all update notifications instead of leaving stale version cards behind.",
     "Polished the Search layout so the season controls stay aligned and the results area has more breathing room.",
@@ -22,6 +26,6 @@
     "Added update rollback, Stable/Beta update channels, and richer changelog history.",
     "Expanded naming transparency to show whether a clean title came from Groq, an alias, cache, local fallback, or a manual override."
   ],
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.3/NyaaDebrid-Windows-x64.zip",
-  "sha256": "70fecd6a2139429bc241f60e75816f2c2aaed3267504210b5806db5e31d211e2"
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.4/NyaaDebrid-Windows-x64.zip",
+  "sha256": "147aa8446c9699f3d20afa7a5af5331483be0a3a94b2609c71de01008e64a7fd"
 }
