@@ -1,7 +1,7 @@
 {
-  "version": "2.0.8",
-  "sha256": "da0a4d3bb8b1ec5f84eac6a52a8fd6381779470de76447b0f256505735fbd823",
   "notes": [
+    "Fixed the Season range selectors so two-digit values such as 02 are fully visible instead of being clipped to a single digit.",
+    "Widened and rebalanced both season selectors to match the new unified field styling.",
     "Removed the unnecessary vertical scrollbar from the empty Results state; scrolling now appears only when real result cards require it.",
     "Rebuilt the Downloads action toolbar into two balanced rows so button labels and icons no longer crowd or clip each other.",
     "Standardized Downloads toolbar icon sizing and minimum button widths for cleaner alignment.",
@@ -11,5 +11,7 @@
     "Normalized button, list and table control radii across the secondary dialogs to the same UI language.",
     "Added geometry tests that fail the build if the main Settings controls no longer share the same height and width."
   ],
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.8/NyaaDebrid-Windows-x64.zip"
+  "sha256": "f384f1e4457fd944240437c33579c25eafa26dec1f8240433e06a6c8520a128c",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.9/NyaaDebrid-Windows-x64.zip",
+  "version": "2.0.9"
 }
