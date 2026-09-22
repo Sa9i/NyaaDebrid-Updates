@@ -1,16 +1,18 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.0/NyaaDebrid-Windows-x64.zip",
+  "version": "2.0.0",
   "notes": [
     "Introduced one global download queue across every search, so new searches never replace or bypass existing downloads.",
-    "Added multi-season searching, saved searches, smarter release rules, per-series preferences, and recommendation preselection.",
-    "Added size sanity checks, episode coverage warnings, duplicate detection, and local episode conflict checks before downloading.",
+    "Added multi-season searching plus an All available seasons mode that stops intelligently after empty seasons.",
+    "Added saved searches, per-series preferences, smart recommendation rules, and named Smart Profiles such as Small HEVC and Best Quality.",
+    "Added full recommended auto-selection mode with confirmation before sending releases to AllDebrid.",
+    "Added size sanity checks, episode coverage warnings, duplicate detection, local episode conflict checks, and quality-upgrade detection.",
     "Added system-tray support, optional Windows notifications, keyboard shortcuts, and release context menus.",
-    "Added bandwidth profiles and optional scheduled queue start times.",
-    "Expanded History with filters and storage statistics.",
+    "Added bandwidth profiles, scheduled queue starts, and optional automatic pause when download speed stays below a configured threshold.",
+    "Expanded History with filters, storage totals, most-downloaded series, session average speed, and failed-download insight.",
     "Added health checks, database backup/repair, and stale temp/log cleanup.",
     "Added update rollback, Stable/Beta update channels, and richer changelog history.",
-    "Added manual naming overrides and clearer AI/alias naming transparency."
+    "Expanded naming transparency to show whether a clean title came from Groq, an alias, cache, local fallback, or a manual override."
   ],
-  "sha256": "aa53f3fdc7ee2a884fa25ad0d8d1ec19380345857f2ad8b9e9c188f9c39d70ef",
-  "version": "2.0.0"
+  "sha256": "711e73cbc97ac82c11316caf1de853a5c5d267e454bd85bf1fc894d586e54930",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.0/NyaaDebrid-Windows-x64.zip"
 }
