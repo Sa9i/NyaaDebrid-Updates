@@ -1,9 +1,14 @@
 {
+  "sha256": "be6690100bcc28ba706062d11597582ab5451dda4c5ee9eaa3c910f68faa2903",
+  "version": "2.0.6",
   "notes": [
-    "Redesigned the update window so only the changelog scrolls while Not now and Install update stay pinned and always visible.",
-    "Stopped carrying the entire 2.0 changelog into every update prompt; future update dialogs show only the changes for that release."
+    "Performed a full UI consistency pass across Settings and secondary dialogs.",
+    "Standardized text fields, combo boxes, spin boxes, time fields, buttons, lists, tables and checkboxes to the same rounded control language and sizing.",
+    "Removed the inconsistent full-width checkbox strips and aligned form spacing and label positioning.",
+    "Polished Health Check cards so labels no longer inherit card borders and storage rows line up cleanly.",
+    "Polished Notification Center cards and added consistent action icons.",
+    "Polished About, Saved Searches, Release Comparison, Rename and Download Review dialogs to match the main app.",
+    "Added meaningful icons to maintenance, Plex-path and dialog actions where they improve scanning."
   ],
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.5/NyaaDebrid-Windows-x64.zip",
-  "version": "2.0.5",
-  "sha256": "1a079ca5711c9281309d05e5c6c41148b9dc58022975f5dd2c9a0923a4d66f01"
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.6/NyaaDebrid-Windows-x64.zip"
 }
