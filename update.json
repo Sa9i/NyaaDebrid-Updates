@@ -1,6 +1,10 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.2/NyaaDebrid-Windows-x64.zip",
+  "version": "2.0.3",
   "notes": [
+    "Update notifications are now transient: old version cards are removed after updating, and only the latest available update can appear.",
+    "Clicking Update immediately removes all update notifications instead of leaving stale version cards behind.",
+    "Polished the Search layout so the season controls stay aligned and the results area has more breathing room.",
+    "Cleaned up Notification Center card styling for a more readable layout.",
     "Low-speed recovery now performs a brief pause/resume cycle instead of leaving downloads paused, working around AllDebrid speed stalls.",
     "Fixed the Version & changelog button label so the ampersand no longer renders as an underscore.",
     "Added configurable Plex library paths with add/remove controls in Settings.",
@@ -18,6 +22,6 @@
     "Added update rollback, Stable/Beta update channels, and richer changelog history.",
     "Expanded naming transparency to show whether a clean title came from Groq, an alias, cache, local fallback, or a manual override."
   ],
-  "sha256": "309f64975255b270fe71be7170472744c0fbce532eed91e1a9ebc4749cc131a8",
-  "version": "2.0.2"
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.0.3/NyaaDebrid-Windows-x64.zip",
+  "sha256": "70fecd6a2139429bc241f60e75816f2c2aaed3267504210b5806db5e31d211e2"
 }
