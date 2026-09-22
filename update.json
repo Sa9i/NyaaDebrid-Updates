@@ -1,6 +1,6 @@
 {
-  "sha256": "53760be923b56ed571c4499179b5f1cd78b7837ea5374d84660869da35891885",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v1.7.4/NyaaDebrid-Windows-x64.zip",
-  "version": "1.7.4",
-  "notes": "NyaaDebrid 1.7.4 is ready to install."
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v1.7.5/NyaaDebrid-Windows-x64.zip",
+  "sha256": "4c9aee1be03e69b837a90a51e6d960c902333e7523bab7a739dcaebd2ff2ada6",
+  "notes": "NyaaDebrid 1.7.5 is ready to install.",
+  "version": "1.7.5"
 }
