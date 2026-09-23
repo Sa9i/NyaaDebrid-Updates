@@ -1,10 +1,9 @@
 {
-  "version": "2.1.6",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.6/NyaaDebrid-Windows-x64.zip",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.7/NyaaDebrid-Windows-x64.zip",
+  "sha256": "5a8c0569d080fe3f8304a5b21f0326be4b3c75635f3eb3eaf1b30ea72566c556",
+  "version": "2.1.7",
   "notes": [
-    "Added a persistent Watch List for unfinished seasons, including expected episode count, downloaded-through progress, saved search preferences and one-click Search now.",
-    "Multi-episode selections from the same download action are now kept as one Batch in Downloads and use one batch-level completion/attention notification while still downloading sequentially underneath.",
-    "Fixed the unreadable Check now icon in Settings by using a white refresh icon on the blue primary button."
-  ],
-  "sha256": "89a5801580feac9e79d95cb836583baca6e1054796f05a5cd8e12d7402417ca1"
+    "Fixed Nyaa search pagination: searches now include pages 2 and 3 instead of only the first RSS page, so older episodes such as E01/E02 are not silently omitted.",
+    "Pagination is bounded and deduplicated by info hash, and stops early when Nyaa returns no new results."
+  ]
 }
