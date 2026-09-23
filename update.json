@@ -1,10 +1,10 @@
 {
-  "version": "2.1.11",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.12/NyaaDebrid-Windows-x64.zip",
+  "sha256": "344576ea85677486138964f164fb9d2f8a4487135dccf0241823bbefea3798ae",
+  "version": "2.1.12",
   "notes": [
-    "Moved Groq title normalization off the Qt GUI thread into a background worker, eliminating the 10-20 second UI freeze/Windows ghost window when Groq is slow or times out.",
-    "Added a conservative local fallback that extracts an obvious English title from mixed Romaji (English Title) names; the reported Insipid Prince title now resolves correctly even when Groq fails.",
-    "Cached Groq model selection for the running process to avoid repeating the models API lookup for every title."
-  ],
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.11/NyaaDebrid-Windows-x64.zip",
-  "sha256": "a0807a9bec2d3281019207ac6931d25dbc4c9e7b38f848501e807e82010bcbdd"
+    "Deepened every detected episode with an episode-specific Nyaa search, so older releases from additional groups are recovered even when that episode already appeared once in the broad RSS results.",
+    "Replaced per-release preparation UI churn with one quiet batch preparation dialog showing an animated Please wait state and ready-count progress while AllDebrid upload/status/link resolution runs in the background.",
+    "Suppressed routine batch preparation/queue toasts and consolidated preparation failures to one batch-level notification."
+  ]
 }
