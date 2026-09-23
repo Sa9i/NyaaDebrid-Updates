@@ -1,11 +1,11 @@
 {
-  "version": "2.1.16",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.16/NyaaDebrid-Windows-x64.zip",
-  "sha256": "1d332f3a7c1f99eb2c45a8d2da862f55105cf37b955b56442db993bd63a8411b",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.17/NyaaDebrid-Windows-x64.zip",
+  "sha256": "a25916de6b0df511ddcdb1662e34a4b913a0a1822fb197e8ce3a4c1a1b78e5ce",
   "notes": [
-    "Rebuilt History around logical download batches: multi-episode selections now appear as one History card with combined episode count, size, completion time and folder.",
-    "History records now persist download batch identity while keeping individual release rows internally for accurate totals and idempotent restore.",
-    "Existing completed batches are retroactively tagged from saved download history on startup, so recent 12-episode batches collapse into one History entry without clearing the database.",
-    "History download statistics now count one batch as one download instead of counting every episode release separately."
-  ]
+    "Fixed legacy History batching: old episode records without download_batch_id are now inferred into batches when they share the same series, season and folder and completed in one continuous download window.",
+    "This makes existing multi-episode downloads collapse into one History entry even when they were recorded before explicit batch IDs were persisted.",
+    "Redesigned History into compact 52-58px rows so many completed batches fit on screen without excessive scrolling.",
+    "History download statistics now use the same explicit + inferred batch grouping shown in the History list."
+  ],
+  "version": "2.1.17"
 }
