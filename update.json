@@ -1,10 +1,10 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.4/NyaaDebrid-Windows-x64.zip",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "notes": [
-    "Reworked naming approval to use a non-blocking Qt dialog instead of a nested dialog event loop, preventing the native crash seen when confirming multi-episode downloads.",
-    "Multi-episode naming preview now resolves the storage route once per batch and updates edited preview names without filesystem/database side effects.",
-    "Added faulthandler and Qt message logging so native PySide/Qt failures leave useful diagnostics in the application log."
+    "Fixed the confirmed native crash cause: worker callbacks that update the UI are now always marshalled onto the main Qt GUI thread.",
+    "All Search, AllDebrid upload/status/files, connection, history and update worker result/error callbacks now pass through a queued GUI-thread dispatcher.",
+    "Added a regression test that runs a real QThread worker and verifies its completion callback executes on MainWindow's thread."
   ],
-  "sha256": "b276b3c961fa0f5003ca42ed857eef6390d2c18cd34b56a00b89893eb2e5f367"
+  "sha256": "71e9f3c33369caf80bc1b4023d6b3b559278a13b0cbe3b94d21de36e9081d1bd",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.5/NyaaDebrid-Windows-x64.zip"
 }
