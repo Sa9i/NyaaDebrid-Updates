@@ -1,10 +1,10 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.3/NyaaDebrid-Windows-x64.zip",
-  "version": "2.1.3",
-  "sha256": "9cd588958cb761121c5e5819e91c981dc11bb8f41fd97022bb2aa6c513597b6f",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.4/NyaaDebrid-Windows-x64.zip",
+  "version": "2.1.4",
   "notes": [
-    "Fixed a crash in the prepared multi-episode download path and stopped redundant storage-routing work during UI refreshes.",
-    "Fresh AllDebrid direct links from naming approval are now used immediately instead of being refreshed again before the first queued download.",
-    "Added fallback episode detection from resolved media filenames plus persistent logging for unhandled Python and worker-thread exceptions."
-  ]
+    "Reworked naming approval to use a non-blocking Qt dialog instead of a nested dialog event loop, preventing the native crash seen when confirming multi-episode downloads.",
+    "Multi-episode naming preview now resolves the storage route once per batch and updates edited preview names without filesystem/database side effects.",
+    "Added faulthandler and Qt message logging so native PySide/Qt failures leave useful diagnostics in the application log."
+  ],
+  "sha256": "b276b3c961fa0f5003ca42ed857eef6390d2c18cd34b56a00b89893eb2e5f367"
 }
