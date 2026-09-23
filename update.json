@@ -1,9 +1,10 @@
 {
-  "sha256": "da1ee7d151c5eaf9f3aa077bea15c6fbc3c5ef8689e9b668a2829b728dc76061",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.2/NyaaDebrid-Windows-x64.zip",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.3/NyaaDebrid-Windows-x64.zip",
+  "version": "2.1.3",
+  "sha256": "9cd588958cb761121c5e5819e91c981dc11bb8f41fd97022bb2aa6c513597b6f",
   "notes": [
-    "Fixed the Search UI so manually entered GROUP / UPLOADER text is no longer erased when Search is pressed.",
-    "The visible GROUP / UPLOADER value is now passed unchanged to the search worker, while presets are only applied when selected instead of being re-applied at search time."
-  ],
-  "version": "2.1.2"
+    "Fixed a crash in the prepared multi-episode download path and stopped redundant storage-routing work during UI refreshes.",
+    "Fresh AllDebrid direct links from naming approval are now used immediately instead of being refreshed again before the first queued download.",
+    "Added fallback episode detection from resolved media filenames plus persistent logging for unhandled Python and worker-thread exceptions."
+  ]
 }
