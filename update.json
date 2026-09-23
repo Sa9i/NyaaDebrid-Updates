@@ -1,10 +1,9 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.13/NyaaDebrid-Windows-x64.zip",
   "notes": [
-    "Redesigned Downloads actions: each file now shows one clear state-aware action plus a clean three-dot menu instead of a row of ambiguous icon-only buttons.",
-    "Moved remove, queue ordering, copy-link, cancel and other secondary actions into styled overflow menus; batch cards now use the same interaction pattern.",
-    "Added a dedicated high-contrast small Windows icon for taskbar, tray and title bar, while keeping the full mascot artwork for the in-app brand and splash screen."
+    "Disabled UPX compression in the Windows PyInstaller build to reduce antivirus heuristic false positives such as AVG IDP.HELU.PSD11.",
+    "The application remains a normal one-folder portable build; only executable/library compression is disabled, so functionality is unchanged while the package may be slightly larger."
   ],
-  "version": "2.1.13",
-  "sha256": "0b923d12510a303c9017be65e1ff676ead23ba78175d617d2827ae9a94a5194d"
+  "version": "2.1.14",
+  "sha256": "7c6b7d076b162e4e0afafb2cb3c780ceb286762450e613d363d15e5aec0c6825",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.14/NyaaDebrid-Windows-x64.zip"
 }
