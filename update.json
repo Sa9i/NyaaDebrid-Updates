@@ -1,9 +1,9 @@
 {
+  "sha256": "da1ee7d151c5eaf9f3aa077bea15c6fbc3c5ef8689e9b668a2829b728dc76061",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.2/NyaaDebrid-Windows-x64.zip",
   "notes": [
-    "Fixed GROUP / UPLOADER search so the entered value is enforced as a real filter instead of only affecting ranking.",
-    "When no full-season batch is available, Select recommended now chooses one release per detected episode and prefers the same release group/uploader across the season, falling back only for missing episodes."
+    "Fixed the Search UI so manually entered GROUP / UPLOADER text is no longer erased when Search is pressed.",
+    "The visible GROUP / UPLOADER value is now passed unchanged to the search worker, while presets are only applied when selected instead of being re-applied at search time."
   ],
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.1/NyaaDebrid-Windows-x64.zip",
-  "sha256": "d633ffa18fb250eab25c35cd925d86ed9db54ea7c3e7fc1c2c0bf6ae647d979c",
-  "version": "2.1.1"
+  "version": "2.1.2"
 }
