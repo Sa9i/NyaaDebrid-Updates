@@ -1,9 +1,12 @@
 {
   "notes": [
-    "Disabled UPX compression in the Windows PyInstaller build to reduce antivirus heuristic false positives such as AVG IDP.HELU.PSD11.",
-    "The application remains a normal one-folder portable build; only executable/library compression is disabled, so functionality is unchanged while the package may be slightly larger."
+    "Redesigned the Downloads header into one compact control bar; maintenance actions now live under More instead of a large two-row button panel.",
+    "Rebuilt Watch List as progress cards with clear remaining-episode status and direct actions instead of an admin-style table.",
+    "Watch List Search now performs a fresh targeted Nyaa search only for missing episodes; an 11/12 item searches E12 directly while preserving saved Group/Uploader and Dub preferences.",
+    "Enlarged the visible Windows system icon artwork so the taskbar/tray mark occupies the same visual footprint as other application icons.",
+    "Episode deep-search now merges both SxxExx and loose episode-number query forms instead of stopping after the first matching release group."
   ],
-  "version": "2.1.14",
-  "sha256": "7c6b7d076b162e4e0afafb2cb3c780ceb286762450e613d363d15e5aec0c6825",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.14/NyaaDebrid-Windows-x64.zip"
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.15/NyaaDebrid-Windows-x64.zip",
+  "version": "2.1.15",
+  "sha256": "a225a2558847a6c93be467bb49b88bd0600db2e9527c2a53aded95bd58f56a15"
 }
