@@ -1,10 +1,10 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.12/NyaaDebrid-Windows-x64.zip",
-  "sha256": "344576ea85677486138964f164fb9d2f8a4487135dccf0241823bbefea3798ae",
-  "version": "2.1.12",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.13/NyaaDebrid-Windows-x64.zip",
   "notes": [
-    "Deepened every detected episode with an episode-specific Nyaa search, so older releases from additional groups are recovered even when that episode already appeared once in the broad RSS results.",
-    "Replaced per-release preparation UI churn with one quiet batch preparation dialog showing an animated Please wait state and ready-count progress while AllDebrid upload/status/link resolution runs in the background.",
-    "Suppressed routine batch preparation/queue toasts and consolidated preparation failures to one batch-level notification."
-  ]
+    "Redesigned Downloads actions: each file now shows one clear state-aware action plus a clean three-dot menu instead of a row of ambiguous icon-only buttons.",
+    "Moved remove, queue ordering, copy-link, cancel and other secondary actions into styled overflow menus; batch cards now use the same interaction pattern.",
+    "Added a dedicated high-contrast small Windows icon for taskbar, tray and title bar, while keeping the full mascot artwork for the in-app brand and splash screen."
+  ],
+  "version": "2.1.13",
+  "sha256": "0b923d12510a303c9017be65e1ff676ead23ba78175d617d2827ae9a94a5194d"
 }
