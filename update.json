@@ -1,12 +1,11 @@
 {
+  "version": "2.1.16",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.16/NyaaDebrid-Windows-x64.zip",
+  "sha256": "1d332f3a7c1f99eb2c45a8d2da862f55105cf37b955b56442db993bd63a8411b",
   "notes": [
-    "Redesigned the Downloads header into one compact control bar; maintenance actions now live under More instead of a large two-row button panel.",
-    "Rebuilt Watch List as progress cards with clear remaining-episode status and direct actions instead of an admin-style table.",
-    "Watch List Search now performs a fresh targeted Nyaa search only for missing episodes; an 11/12 item searches E12 directly while preserving saved Group/Uploader and Dub preferences.",
-    "Enlarged the visible Windows system icon artwork so the taskbar/tray mark occupies the same visual footprint as other application icons.",
-    "Episode deep-search now merges both SxxExx and loose episode-number query forms instead of stopping after the first matching release group."
-  ],
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.15/NyaaDebrid-Windows-x64.zip",
-  "version": "2.1.15",
-  "sha256": "a225a2558847a6c93be467bb49b88bd0600db2e9527c2a53aded95bd58f56a15"
+    "Rebuilt History around logical download batches: multi-episode selections now appear as one History card with combined episode count, size, completion time and folder.",
+    "History records now persist download batch identity while keeping individual release rows internally for accurate totals and idempotent restore.",
+    "Existing completed batches are retroactively tagged from saved download history on startup, so recent 12-episode batches collapse into one History entry without clearing the database.",
+    "History download statistics now count one batch as one download instead of counting every episode release separately."
+  ]
 }
