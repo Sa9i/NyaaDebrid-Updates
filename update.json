@@ -1,10 +1,10 @@
 {
-  "version": "2.1.9",
-  "sha256": "b6dd4ad148eee4aa996baaa388df46e9ee48921b6f99efb3e4cfe71fd3690e33",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.9/NyaaDebrid-Windows-x64.zip",
+  "version": "2.1.10",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.10/NyaaDebrid-Windows-x64.zip",
   "notes": [
-    "Fixed AI naming being bypassed by stale fallback/local title-cache entries; only successful Groq normalizations are now persisted as authoritative naming cache.",
-    "Fixed the title guardrail so a clean English title extracted by Groq from a parenthesized Romaji + English search title is not overwritten by the longer mixed search title.",
-    "Added naming-source diagnostics showing whether a title came from manual override, alias, cache, Groq, fallback or local resolution."
-  ]
+    "Fixed Confirm download name incorrectly marking an untouched suggested title as a manual override when Download was pressed.",
+    "Legacy manual overrides that match the old mixed Romaji + English naming bug are now re-checked with Groq when an API key is available.",
+    "Confirm download name now shows the naming source so it is visible whether the title came from Groq, cache, alias, manual input or local fallback."
+  ],
+  "sha256": "4125affcbf27306945a116f050a7315b912f5f7c1648512ab396579d4288abfa"
 }
