@@ -1,11 +1,10 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.23/NyaaDebrid-Windows-x64.zip",
-  "version": "2.1.23",
-  "sha256": "7af81998fb3e7071c4d869d654f9b3dd8ce6937faa7d9fd237b32d6ba9b9d7b1",
   "notes": [
-    "Changed the Windows system-icon N from white/silver to vivid red for stronger contrast at small sizes.",
-    "Removed the black outline across the entire top of the circle so it no longer creates a cap above/between the cat ears.",
-    "Kept the thin black outline on the circle sides and bottom, while leaving the cat ears untouched.",
-    "Added regression coverage for both the red N and the open top outline."
-  ]
+    "Changed only the system-icon N from blue/cyan to bright red while preserving the approved icon geometry.",
+    "Removed the added circle outline entirely; no border, ring or cap is added anywhere around the icon.",
+    "Kept the cat ears, dark circular body, sidebar mascot and startup/loading splash unchanged."
+  ],
+  "sha256": "5542bd7b474c0f127d2cf28220012366cabf82fb63d328e7476e66ae0ac78684",
+  "version": "2.1.24",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.24/NyaaDebrid-Windows-x64.zip"
 }
