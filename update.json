@@ -1,11 +1,10 @@
 {
+  "sha256": "2000dc7616afa3e6fbb5038148026018347799eba6cb967ff667946b356fea69",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.21/NyaaDebrid-Windows-x64.zip",
   "notes": [
-    "Fixed the corrupted system-icon asset that caused the 2.1.19 CI failure.",
-    "Uses the larger high-contrast white-N icon for the Windows EXE, title bar, taskbar and system tray.",
-    "Keeps the sidebar cat mascot and startup/loading splash unchanged.",
-    "The updater still recreates NyaaDebrid.exe so Windows is less likely to keep showing the old cached EXE icon."
+    "Changed the small Windows system icon artwork from silver/gray to solid high-contrast white so the N stays readable in the tray, title bar, taskbar and Explorer.",
+    "Kept the approved icon geometry and overall layout unchanged; only the light artwork/contrast was adjusted.",
+    "The sidebar cat mascot and startup/loading splash remain unchanged."
   ],
-  "version": "2.1.20",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.20/NyaaDebrid-Windows-x64.zip",
-  "sha256": "d223aa8c0549e0df34f2b7c92114ee51a4c464a311c70d8c9dac8f82b46690cb"
+  "version": "2.1.21"
 }
