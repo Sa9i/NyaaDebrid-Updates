@@ -1,11 +1,11 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.22/NyaaDebrid-Windows-x64.zip",
-  "version": "2.1.22",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.23/NyaaDebrid-Windows-x64.zip",
+  "version": "2.1.23",
+  "sha256": "7af81998fb3e7071c4d869d654f9b3dd8ce6937faa7d9fd237b32d6ba9b9d7b1",
   "notes": [
-    "Rebuilt the Windows system-icon pipeline at 4x resolution before generating the ICO, giving the EXE and large Explorer views cleaner antialiased edges.",
-    "Added a thin black outline around the circular body only; the cat ears remain untouched and are never covered by the outline.",
-    "Tray, title bar and taskbar now reuse the same processed runtime icon as the EXE artwork.",
-    "The sidebar cat mascot and startup/loading splash remain unchanged."
-  ],
-  "sha256": "7f7d40cfaba954f1791ac6f6b1df4c80b96e59eba0aa6ce005bc1ebcf8ca16b4"
+    "Changed the Windows system-icon N from white/silver to vivid red for stronger contrast at small sizes.",
+    "Removed the black outline across the entire top of the circle so it no longer creates a cap above/between the cat ears.",
+    "Kept the thin black outline on the circle sides and bottom, while leaving the cat ears untouched.",
+    "Added regression coverage for both the red N and the open top outline."
+  ]
 }
