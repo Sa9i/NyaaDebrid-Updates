@@ -1,11 +1,10 @@
 {
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.17/NyaaDebrid-Windows-x64.zip",
-  "sha256": "a25916de6b0df511ddcdb1662e34a4b913a0a1822fb197e8ce3a4c1a1b78e5ce",
   "notes": [
-    "Fixed legacy History batching: old episode records without download_batch_id are now inferred into batches when they share the same series, season and folder and completed in one continuous download window.",
-    "This makes existing multi-episode downloads collapse into one History entry even when they were recorded before explicit batch IDs were persisted.",
-    "Redesigned History into compact 52-58px rows so many completed batches fit on screen without excessive scrolling.",
-    "History download statistics now use the same explicit + inferred batch grouping shown in the History list."
+    "Replaced the temporary system icon with the approved cat-ear NyaaDebrid icon across the Windows EXE, taskbar/title bar and system tray.",
+    "The sidebar mascot and startup/loading splash intentionally remain unchanged.",
+    "Windows multi-size ICO variants are now generated directly from the same approved PNG so every small system surface stays visually consistent."
   ],
-  "version": "2.1.17"
+  "version": "2.1.18",
+  "sha256": "8641f16ca9eff9c69873f40ec8f9c7405b463800c7c4ad685e474a5a62e6a019",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.18/NyaaDebrid-Windows-x64.zip"
 }
