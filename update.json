@@ -1,10 +1,11 @@
 {
   "notes": [
-    "Replaced the temporary system icon with the approved cat-ear NyaaDebrid icon across the Windows EXE, taskbar/title bar and system tray.",
-    "The sidebar mascot and startup/loading splash intentionally remain unchanged.",
-    "Windows multi-size ICO variants are now generated directly from the same approved PNG so every small system surface stays visually consistent."
+    "Fixed the corrupted system-icon asset that caused the 2.1.19 CI failure.",
+    "Uses the larger high-contrast white-N icon for the Windows EXE, title bar, taskbar and system tray.",
+    "Keeps the sidebar cat mascot and startup/loading splash unchanged.",
+    "The updater still recreates NyaaDebrid.exe so Windows is less likely to keep showing the old cached EXE icon."
   ],
-  "version": "2.1.18",
-  "sha256": "8641f16ca9eff9c69873f40ec8f9c7405b463800c7c4ad685e474a5a62e6a019",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.18/NyaaDebrid-Windows-x64.zip"
+  "version": "2.1.20",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.20/NyaaDebrid-Windows-x64.zip",
+  "sha256": "d223aa8c0549e0df34f2b7c92114ee51a4c464a311c70d8c9dac8f82b46690cb"
 }
