@@ -1,12 +1,11 @@
 {
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.26/NyaaDebrid-Windows-x64.zip",
+  "version": "2.1.26",
+  "sha256": "c56d9b5c853f9885949ea2e09f772d1b75a13a094f19669eac94d0a3debdd381",
   "notes": [
-    "Nyaa searches now use a bounded time budget and shorter network timeouts, preventing multi-minute waits caused by long episode-discovery queries.",
-    "Added Cancel search with immediate UI recovery; new searches can start without waiting for the old request, and stale search results cannot override the new search.",
-    "AllDebrid preparation can be cancelled from its progress dialog, title-bar X or Downloads while preserving existing downloaded files.",
-    "Late AllDebrid upload/status/file responses no longer revive cancelled preparations; duplicate status polling is prevented.",
-    "Uncached AllDebrid releases that stay pending for more than 3 minutes now show a clear preparation error instead of waiting indefinitely."
-  ],
-  "version": "2.1.25",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.25/NyaaDebrid-Windows-x64.zip",
-  "sha256": "6612e4d0275ce21d6cbcc79d75035af8ef6fece271a801a52c922893a23e5b00"
+    "Fixed the Search dialog falsely reporting 'Search cancelled' after successful completion when Qt closed the progress window.",
+    "Dub-only searches now prioritize matching season packs and stop unnecessary episode-by-episode requests after finding a full season.",
+    "Limited single-season searches to a shorter wait while retaining focused episode discovery when no matching pack exists.",
+    "Nyaa RSS/network failures are now logged and reported instead of silently appearing as zero results."
+  ]
 }
