@@ -1,10 +1,12 @@
 {
   "notes": [
-    "Changed only the system-icon N from blue/cyan to bright red while preserving the approved icon geometry.",
-    "Removed the added circle outline entirely; no border, ring or cap is added anywhere around the icon.",
-    "Kept the cat ears, dark circular body, sidebar mascot and startup/loading splash unchanged."
+    "Nyaa searches now use a bounded time budget and shorter network timeouts, preventing multi-minute waits caused by long episode-discovery queries.",
+    "Added Cancel search with immediate UI recovery; new searches can start without waiting for the old request, and stale search results cannot override the new search.",
+    "AllDebrid preparation can be cancelled from its progress dialog, title-bar X or Downloads while preserving existing downloaded files.",
+    "Late AllDebrid upload/status/file responses no longer revive cancelled preparations; duplicate status polling is prevented.",
+    "Uncached AllDebrid releases that stay pending for more than 3 minutes now show a clear preparation error instead of waiting indefinitely."
   ],
-  "sha256": "5542bd7b474c0f127d2cf28220012366cabf82fb63d328e7476e66ae0ac78684",
-  "version": "2.1.24",
-  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.24/NyaaDebrid-Windows-x64.zip"
+  "version": "2.1.25",
+  "url": "https://github.com/Sa9i/NyaaDebrid-Updates/releases/download/v2.1.25/NyaaDebrid-Windows-x64.zip",
+  "sha256": "6612e4d0275ce21d6cbcc79d75035af8ef6fece271a801a52c922893a23e5b00"
 }
